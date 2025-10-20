@@ -572,14 +572,6 @@ body {
  justify-content: center;
  align-items: center;
 }
-
-.container {
-  max-width: 1770px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 80px 20px;
-}
-
 h2 {
   font-size: 28px;
   font-weight: 700;
@@ -632,5 +624,6 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
+
 
 
