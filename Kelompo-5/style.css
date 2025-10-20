@@ -567,4 +567,70 @@ body {
 }
 
 
+.check-demo {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.container {
+  max-width: 1770px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 50px;
+}
+
+.demo-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.demo-text {
+  flex: 1 1 50%;
+  text-align: left;
+}
+
+.demo-item {
+  margin-bottom: 25px;
+}
+
+.demo-item h3 {
+    text-align: center;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.demo-item p {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.demo-image {
+  flex: 1 1 45%;
+  position: relative;
+}
+
+.demo-image img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
 
